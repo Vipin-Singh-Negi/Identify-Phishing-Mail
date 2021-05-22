@@ -1,0 +1,24 @@
+version: 1
+disable_existing_loggers: true
+formatters:
+  simple:
+    format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+    datefmt: "%Y-%m-%d %H:%M:%S"
+handlers:
+  file:
+    class: logging.handlers.RotatingFileHandler
+    level: DEBUG
+    formatter: simple
+    mode: w
+    filename: logs/phising_mail_classifier_logs.log
+    maxBytes: 5242880 #5 MB
+    backupCount: 5
+    encoding: utf8
+loggers:
+  PhishingMailClassifier:
+    level: DEBUG
+    handlers: [file]
+    propagate: no
+root:
+  level: DEBUG
+  handlers: [file]
