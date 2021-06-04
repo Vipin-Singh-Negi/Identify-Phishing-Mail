@@ -1,0 +1,5 @@
+.ipynb_checkpoints
+*.log
+mails/*
+!mails/tar
+temp.py

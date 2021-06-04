@@ -1,0 +1,109 @@
+,Model,Accuracy,Balanced Accuracy,Log loss,F1 Score,MCC,ROC_AUC,Report
+0,Logistic Regression(before tuning),95.1,95.1,0.205,95.122,0.902,95.1,"              precision    recall  f1-score   support
+
+           0     0.9567    0.9450    0.9508       327
+           1     0.9455    0.9571    0.9512       326
+
+    accuracy                         0.9510       653
+   macro avg     0.9511    0.9510    0.9510       653
+weighted avg     0.9511    0.9510    0.9510       653
+"
+1,Logistic Regression(after tuning),97.09,97.087,0.162,97.027,0.943,97.087,"              precision    recall  f1-score   support
+
+           0     0.9529    0.9908    0.9715       327
+           1     0.9904    0.9509    0.9703       326
+
+    accuracy                         0.9709       653
+   macro avg     0.9717    0.9709    0.9709       653
+weighted avg     0.9716    0.9709    0.9709       653
+"
+2,SVC (before tuning),94.793,94.794,0.139,94.801,0.896,94.794,"              precision    recall  f1-score   support
+
+           0     0.9508    0.9450    0.9479       327
+           1     0.9451    0.9509    0.9480       326
+
+    accuracy                         0.9479       653
+   macro avg     0.9479    0.9479    0.9479       653
+weighted avg     0.9479    0.9479    0.9479       653
+"
+3,SVC(after tuning),97.09,97.091,0.11,97.099,0.942,97.091,"              precision    recall  f1-score   support
+
+           0     0.9753    0.9664    0.9708       327
+           1     0.9666    0.9755    0.9710       326
+
+    accuracy                         0.9709       653
+   macro avg     0.9709    0.9709    0.9709       653
+weighted avg     0.9709    0.9709    0.9709       653
+"
+4,Gradient Boosting Classifier (before tuning),97.55,97.549,0.093,97.538,0.951,97.549,"              precision    recall  f1-score   support
+
+           0     0.9726    0.9786    0.9756       327
+           1     0.9784    0.9724    0.9754       326
+
+    accuracy                         0.9755       653
+   macro avg     0.9755    0.9755    0.9755       653
+weighted avg     0.9755    0.9755    0.9755       653
+"
+5,Gradient Boosting(after tuning),98.162,98.161,0.072,98.148,0.963,98.161,"              precision    recall  f1-score   support
+
+           0     0.9758    0.9878    0.9818       327
+           1     0.9876    0.9755    0.9815       326
+
+    accuracy                         0.9816       653
+   macro avg     0.9817    0.9816    0.9816       653
+weighted avg     0.9817    0.9816    0.9816       653
+"
+6,Random Forest Classifier (before tuning),97.397,97.397,0.098,97.405,0.948,97.397,"              precision    recall  f1-score   support
+
+           0     0.9784    0.9694    0.9739       327
+           1     0.9696    0.9785    0.9740       326
+
+    accuracy                         0.9740       653
+   macro avg     0.9740    0.9740    0.9740       653
+weighted avg     0.9740    0.9740    0.9740       653
+"
+7,Random Forest(after tuning),98.009,98.009,0.067,98.003,0.96,98.009,"              precision    recall  f1-score   support
+
+           0     0.9787    0.9817    0.9802       327
+           1     0.9815    0.9785    0.9800       326
+
+    accuracy                         0.9801       653
+   macro avg     0.9801    0.9801    0.9801       653
+weighted avg     0.9801    0.9801    0.9801       653
+"
+8,ExtraTrees Classifier (before tuning),97.55,97.55,0.186,97.546,0.951,97.55,"              precision    recall  f1-score   support
+
+           0     0.9755    0.9755    0.9755       327
+           1     0.9755    0.9755    0.9755       326
+
+    accuracy                         0.9755       653
+   macro avg     0.9755    0.9755    0.9755       653
+weighted avg     0.9755    0.9755    0.9755       653
+"
+9,ExtraTrees Classifier(after tuning),98.469,98.468,0.105,98.457,0.969,98.468,"              precision    recall  f1-score   support
+
+           0     0.9789    0.9908    0.9848       327
+           1     0.9907    0.9785    0.9846       326
+
+    accuracy                         0.9847       653
+   macro avg     0.9848    0.9847    0.9847       653
+weighted avg     0.9848    0.9847    0.9847       653
+"
+10,Voting Classifier(hard voting),97.856,97.855,,97.833,0.957,97.855,"              precision    recall  f1-score   support
+
+           0     0.9700    0.9878    0.9788       327
+           1     0.9875    0.9693    0.9783       326
+
+    accuracy                         0.9786       653
+   macro avg     0.9787    0.9785    0.9786       653
+weighted avg     0.9787    0.9786    0.9786       653
+"
+11,Voting Classifier(soft voting),98.009,98.008,0.093,97.991,0.96,98.008,"              precision    recall  f1-score   support
+
+           0     0.9729    0.9878    0.9803       327
+           1     0.9875    0.9724    0.9799       326
+
+    accuracy                         0.9801       653
+   macro avg     0.9802    0.9801    0.9801       653
+weighted avg     0.9802    0.9801    0.9801       653
+"
