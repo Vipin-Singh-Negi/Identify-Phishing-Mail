@@ -1,6 +1,6 @@
 # Phishing-Mail-Classifier
 
-![Project Status](https://img.shields.io/badge/status-In%20Progress-f39f37)
+![Project Status](https://img.shields.io/badge/status-In%20Done-00ff)
 
 
 This reasearch project aims to conduct a comparative assessment between various classification algorithms techniques, and various features. Moreover, the goal includes the development of multi-classifier integration model by combining more than one classification technique to enhance detection and protecting against phishing emails.
@@ -20,3 +20,5 @@ The scope of this research is phishing emails detection, where features are extr
 
 For the limitation, this research will not cover the phishing websites, moreover the experiments will not cover all the available classification algorithms. However, this study will evaluate experimentally the most well-known algorithms.
 
+## Workflow
+![Project Status](./resources/images/Workflow.jpg)
