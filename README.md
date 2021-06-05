@@ -1,4 +1,4 @@
-# Phishing-Mail-Classifier
+# Identify-Phishing-Mail
 
 ![Project Status](https://img.shields.io/badge/status-Done-00ff)
 
